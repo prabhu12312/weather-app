@@ -35,6 +35,6 @@ function weatherShowFn(data) {
         html(`Wind Speed: ${data.wind.speed} m/s`);
     $('#weather-icon').
         attr('src',
-            `...`);
+            );
     $('#weather-info').fadeIn();
 }
